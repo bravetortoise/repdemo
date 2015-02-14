@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @itinerary.date %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @itinerary.company %>
+</p>
+
+<p>
+  <strong>Contact:</strong>
+  <%= @itinerary.contact %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @itinerary.address %>
+</p>
+
+<p>
+  <strong>Telephone:</strong>
+  <%= @itinerary.telephone %>
+</p>
+
+<p>
+  <strong>Remarks:</strong>
+  <%= @itinerary.remarks %>
+</p>
+
+<p>
+  <strong>Charges:</strong>
+  <%= @itinerary.charges %>
+</p>
+
+<%= link_to 'Edit', edit_itinerary_path(@itinerary) %> |
+<%= link_to 'Back', itineraries_path %>

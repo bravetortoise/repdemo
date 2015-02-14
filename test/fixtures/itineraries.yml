@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2015-02-12 23:00:52
+  company: MyString
+  contact: MyString
+  address: MyString
+  telephone: 1
+  remarks: MyString
+  charges: 9.99
+
+two:
+  date: 2015-02-12 23:00:52
+  company: MyString
+  contact: MyString
+  address: MyString
+  telephone: 1
+  remarks: MyString
+  charges: 9.99
